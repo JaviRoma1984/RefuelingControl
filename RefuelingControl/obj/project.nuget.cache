@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "ByIoUC4DHo0=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\j-f-r\\Documents\\DEV\\Repositorios\\RefuelingControl\\RefuelingControl\\RefuelingControl.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\j-f-r\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.27\\microsoft.netcore.app.ref.8.0.27.nupkg.sha512",
+    "C:\\Users\\j-f-r\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.27\\microsoft.windowsdesktop.app.ref.8.0.27.nupkg.sha512",
+    "C:\\Users\\j-f-r\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.27\\microsoft.aspnetcore.app.ref.8.0.27.nupkg.sha512",
+    "C:\\Users\\j-f-r\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\8.0.27\\microsoft.netcore.app.host.win-x64.8.0.27.nupkg.sha512"
+  ],
+  "logs": []
+}

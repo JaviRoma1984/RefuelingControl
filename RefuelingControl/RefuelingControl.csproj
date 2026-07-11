@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <RootNamespace>RefuelingControl</RootNamespace>
+    <AssemblyName>RefuelingControl</AssemblyName>
+    <UseWPF>true</UseWPF>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Ventanas todavía sin implementar (placeholders vacíos) -->
+    <Page Remove="Views\CreateVehicleWindow.xaml" />
+    <Page Remove="Views\DeleteVehicleWindow.xaml" />
+  </ItemGroup>
+
+</Project>
