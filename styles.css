@@ -348,10 +348,23 @@ body {
     justify-content: space-between;
 }
 
-.stats-column {
+.gasto-mensual-line {
     display: flex;
-    flex-direction: column;
-    gap: 14px;
+    align-items: baseline;
+    gap: 6px;
+    flex-wrap: wrap;
+}
+
+.gasto-mensual-label {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--color-text);
+}
+
+.gasto-mensual-value {
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--color-primary);
 }
 
 .stat {
