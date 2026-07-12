@@ -351,8 +351,8 @@ body {
 .gasto-mensual-line {
     display: flex;
     align-items: baseline;
+    justify-content: center;
     gap: 6px;
-    flex-wrap: wrap;
 }
 
 .gasto-mensual-label {
