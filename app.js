@@ -3,6 +3,7 @@ const STORAGE_KEYS = {
     repostajes: 'refuelingcontrol_repostajes',
     theme: 'refuelingcontrol_theme',
     lastVehicleId: 'refuelingcontrol_lastVehicleId',
+    seeded: 'refuelingcontrol_seeded',
 };
 
 const PANEL_IDS = [
@@ -43,6 +44,11 @@ function nextId(items) {
 }
 
 function seedDataIfEmpty() {
+    // Solo precarga los vehículos de ejemplo la primera vez que se usa la app,
+    // nunca más (aunque el usuario borre después todos sus vehículos).
+    if (localStorage.getItem(STORAGE_KEYS.seeded)) return;
+    localStorage.setItem(STORAGE_KEYS.seeded, 'true');
+
     if (loadVehicles().length > 0) return;
     saveVehicles([
         { id: 1, vehicleType: '🚗 Coche', name: 'Sedán Familiar', licensePlate: '1234ABC', brand: 'Toyota', model: 'Corolla', year: 2020, fuelType: 'Gasolina', description: 'Vehículo familiar, 5 puertas, color blanco' },
